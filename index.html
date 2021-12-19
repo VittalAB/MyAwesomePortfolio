@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My awesome portfoilo</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+</head>
+
+<body>
+    
+    <script src="js\app.js"></script>
+    
+    
+    <div class="site-main-wrapper">
+        
+        <button class="hamburger">
+            <img src="images\ham.jpg" alt="">
+        </button>
+        
+        <div class="mobile-nav">
+            <button class="times"> <img src="./images/close.jpeg" alt="" width="35px" height="35px"> </button>
+
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#about">About</a> </li>
+                <li> <a href="#resume">Resume</a> </li>
+                <li> <a href="#blog">Blog</a> </li>
+                <li> <a href="#myproj">My Projects</a> </li>
+            </ul>
+            
+        </div>
+        
+        
+        <header>
+            <div class="container">
+                
+                <nav id="main-nav"  class="flex items-center justify-bet">
+                    <div class="left flex items-center">
+                        <div>
+                            <a href="#"> Home </a>
+                            <a href="#about"> About </a>
+                            <a href="#myproj">My Projects</a>
+                            <a href="#resume"> Resume </a>
+                            <a href="#blog"> Blog </a>
+                        </div>
+            </div>
+            <div class="right">
+                <button class="btn btn-primary">Contact</button>
+            </div>
+        </nav>
+
+        <div class="hero flex items-center justify-bet">
+            <div class="left">
+                <img src="#" alt="my photo">
+            </div>
+            <div class="right">
+                <h6>Vittal AB</h6>
+                <h1>I'm a Creative
+                    <br>
+                     <span>Developer</span>
+                </h1>
+                <p>I am a Computer Science Student at KLE Technological University Hubli.</p>
+
+                <div>
+                    <button class="btn btn-secondary">Download CV</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <section id="about" class="about">
+        
+        <div class="container flex items-center">
+            <div class="about-me-img">
+                <img src="#" alt="Me photo">
+            </div>
+            <div>
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm Vittal Badami</h3>
+                <p>This is my Portfolio , I am very much glad to introduce myself. I am pursuing my BE in <a href="https:/kletech.ac.in" style="text-decoration: none; color: var(--primary);">KLE TECH University</a>. I am very much interested in computers and technologies which gives me an inspiration to do some awsome projects that will help the society in one or the other way with some inovative ideas. I like to share my ideas and knowledge to others and gain as well. Some of my top projects are showcased in this website. These are done during my free time. I like build websites for my own and even android application. I am python and CPP lover and like to do some cool AI based projets. Have a look at my BLOG at the end.</p>
+
+                <div class="social">
+                    <a href="https://www.facebook.com/"><img src="./images/fb.jpg" alt="" width="30px" ></a>
+                    <a href="https://www.linkedin.com/"><img src="images\in.png" alt="not found" width="30px" height="30px"></a>
+                    <a href="https://www.instagram.com/"><img src="images\insta.jpeg" alt="not found" width="30px" ></a>
+                    <a href="https://www.github.com/"><img src="images\git.png" alt="not found" width="30px" ></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="myproj">
+        <div class="container">
+            <h1 class="section-heading"> <span>My </span>projects</h1>
+
+
+            <p>My para </p>
+
+            <div class="card-wrapper">
+
+                <div class="card" onclick="window.location = 'https:/github.com/vittalab/SIC-ASSEMBLER'">
+                    <img src="images\it_khoj.jpg" alt="icon" height="120px" width="120px">
+                    <h2>SIC-ASSEMBLER</h2>
+                    <p style="color: white;"> <b style="color: white;">I</b>mplementation of One pass and Two pass assemebler using CPP 
+                    .This Assembler is based on SIC. Where SIC is hypothetical machine architecture.This Project demonstrates the usage of data structures and algorithms 
+                    that are used in building a standard SIC assembler.More on this visit <a href="https://github.com/vittalab/SIC-ASSEMBLER" style="text-decoration: none; color: black;">here.</a>
+                    </p>
+                </div>
+
+
+
+                <div class="card" onclick="window.location = 'https:/github.com/VittalAB/WEB-APPLICATION'">
+                    <img src="images\serence_retreat.jpg" alt="icon" height="120px" width="120px">
+                    <h2>Reahbilitation Web app.</h2>
+                    <p style="color: white;">Implementation of Reahbilitation center.This project demonstrate the rehab system and maintains the database of patients and their symptoms along with staff details and medication given to those patients. This is based on SQL Database (PHP MYSQL) and served using Apache server on localhost.</p>
+                    <a href="https://github.com/VittalAB/WEB-APPLICATION" style="text-decoration: none; color: black;">here.</a>
+                </div>
+
+
+                <!-- <div class="card">
+                    <img src="#" alt="icon">
+                    <h2>Programming in python,c cpp,java</h2>
+                    <p>About that </p>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="#" alt="icon">
+                    <h2>Programming in python,c cpp,java</h2>
+                    <p>About that </p>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="#" alt="icon">
+                    <h2>Programming in python,c cpp,java</h2>
+                    <p>About that </p>
+                </div>
+
+
+
+                <div class="card">
+                    <img src="#" alt="icon">
+                    <h2>Programming in python,c cpp,java</h2>
+                    <p>About that </p>
+                </div> -->
+
+
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h1>
+            I am a student at KLE Technological University , Hubli.
+        </h1>
+        <p>
+            I am a Computer Science Engineer.This Portfolio is about me and you can check my resume or CV below.
+        </p>
+        <div>
+            <button class="btn btn-primary">Download CV</button>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h1 class="section-heading"> <span>My</span> Blog</h1>
+            <p>My para blog</p>
+
+            <div class="card-wrapper" onclick="window.location = 'https:/medium.com/@vittal.a.badami0107' ">
+
+
+                <div class="card" style="height: 470px; width: 300px; margin-left: auto; margin-right: auto;">
+                    <div class="img-wrapper">
+                        <img src="images\blog.jpeg" alt="Article 1" srcset="">
+                    </div>
+
+                    <div class="card-content">
+                        <a href="https://medium.com/@vittal.a.badami0107">
+                            <h1>Blog : Data Structures And Algo.</h1>
+                        </a>
+
+                        <span>Date :- Nov 3 2021</span>
+
+                        <p>
+                            This Blog is about Data Structures And Algo where we will see the implementation of Linked List , Stacks ,Queues, Graphs and other algorithms.
+                        </p>
+
+                        <a href="#"   class="read-more">Read More</a>
+                    </div>
+                </div>
+
+
+                <!-- <div class="card">
+                    <div class="img-wrapper">
+                        <img src="#" alt="Article 1" srcset="">
+                    </div>
+
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Blog 1</h1>
+                        </a>
+
+                        <span>Date :- </span>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste modi dolor cumque voluptatum, eius reprehenderit aliquam sed autem ab earum quasi commodi, quia cupiditate. Exercitationem expedita assumenda ipsam quasi?</p>
+
+                        <a href="#"  class="read-more">Read More</a>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="img-wrapper">
+                        <img src="#" alt="Article 1" srcset="">
+                    </div>
+
+                    <div class="card-content">
+                        <a href="#">
+                            <h1>Blog 1</h1>
+                        </a>
+
+                        <span>Date :- </span>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis iste modi dolor cumque voluptatum, eius reprehenderit aliquam sed autem ab earum quasi commodi, quia cupiditate. Exercitationem expedita assumenda ipsam quasi?</p>
+
+                        <a href="#"  class="read-more">Read More</a> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+            <!-- <div class="footer-socials">
+                <a href="https://www.facebook.com/"><img src="./images/fb.jpg" alt="" width="30px" ></a>
+                <a href="https://www.linkedin.com/"><img src="images\in.png" alt="not found" width="30px" height="30px"></a>
+                <a href="https://www.instagram.com/"><img src="images\insta.jpeg" alt="not found" width="30px" ></a>
+                <a href="https://www.github.com/"><img src="images\git.png" alt="not found" width="30px" ></a>
+            </div> -->
+            <div>
+                Copyright 2021 © Vittal Portfoio. All Rights Reserved.
+            </div>
+    
+    </footer>
+</div>
+
+</body>
+</html>
